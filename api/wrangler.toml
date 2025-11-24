@@ -1,0 +1,11 @@
+name = "attendance-api"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "attendance-db"
+database_id = "db394bb8-67ed-4867-8130-0fd44d4c97fc"
+
+[vars]
+CORS_ORIGIN = "*"

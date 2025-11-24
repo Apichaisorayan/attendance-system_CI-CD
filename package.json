@@ -1,0 +1,15 @@
+{
+  "name": "attendance-system",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "api",
+    "client"
+  ],
+  "scripts": {
+    "dev:api": "npm run dev --workspace=api",
+    "dev:client": "npm run dev --workspace=client",
+    "build:api": "npm run build --workspace=api",
+    "build:client": "npm run build --workspace=client"
+  }
+}
