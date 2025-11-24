@@ -59,4 +59,3 @@ jobs:
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           projectName: attendance-client
           directory: ./client/dist
-          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
